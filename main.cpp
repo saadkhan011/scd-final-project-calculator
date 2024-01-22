@@ -9,8 +9,9 @@ public:
     double divide(double a, double b);
 
 };
-
-
+ double Calculator::add(double a, double b) {
+    return a + b;
+}
 
 int main() {
     Calculator calculator;
