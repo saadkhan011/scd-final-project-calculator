@@ -9,8 +9,8 @@ public:
     double divide(double a, double b);
 
 };
- double Calculator::add(double a, double b) {
-    return a + b;
+ double Calculator::add(double num1, double num2) {
+    return num1 + num2;
 }
  double Calculator::subtract(double a, double b) {
     return a - b;
